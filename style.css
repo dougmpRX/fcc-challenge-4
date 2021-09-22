@@ -1,0 +1,78 @@
+body {
+    background: linear-gradient(rgba(123, 255, 248, 0.623), rgb(103, 227, 255));
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body #navbar {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    border-right: 3px rgb(50, 161, 205) solid;
+    float: left;
+    position: fixed;
+    font-size: 14px;
+    height: 100vh;
+    width: 300px;
+    z-index: 1;
+}
+
+nav h1 {
+    margin: 20px 10px 20px 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav .nav-item {
+    padding: 10px;
+    border-top: 2px rgb(50, 161, 205) solid;
+}
+
+nav .nav-item:hover {
+    background-color: rgba(50, 161, 205, 0.45);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+body #main-doc {
+    text-align: justify;
+    margin: 0 25px 0 325px;
+
+}
+
+#main-doc a {
+    color: rgb(10, 80, 209);
+    text-decoration: none;
+}
+
+#main-doc a:hover {
+    text-decoration: underline;
+}
+
+#intro {
+    padding-top: 20px;
+    margin-top: 0px;
+}
+
+#hidden, #codes {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 880px) {
+    nav {
+        width: auto;
+        background: white;
+        color: black;
+    }
+}
